@@ -4,8 +4,6 @@ import java.io.Serializable
 
 data class Pet(val id: Int, val name: String, val description: String, val image: Int) : Serializable
 
-//Description text from http://gaddafipsum.com/
-
 val pets = listOf(
     Pet(id = 1,
         name = "Street",
